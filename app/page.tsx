@@ -1,19 +1,14 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
+import NiceOneSection from "@/components/Devices/Nice1";
+import TRexSection from "@/components/Devices/T-Rex";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
-import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Wood-Works",
+  description: "Medical Solutions Group",
   // other metadata
 };
 
@@ -22,14 +17,9 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Features />
-      <Video />
-      <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
+      <NiceOneSection />
+      <TRexSection />
       <Testimonials />
-      <Pricing />
-      <Blog />
       <Contact />
     </>
   );
