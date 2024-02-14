@@ -21,7 +21,7 @@ const TRexSection = () => {
                   Ancillary income expertise
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  From leasing medical devices to revenue cycle management programs, our team provides customized recommendations addressing each client's 
+                  From leasing medical devices to revenue cycle management programs, our team provides customized recommendations addressing each client&apos;s 
                   unique needs and objectives. Contact us to learn more about enhancing your ancillary income streams.
                 </p>
               </div>

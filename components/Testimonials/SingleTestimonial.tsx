@@ -10,7 +10,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
         data-wow-delay=".1s"
       >
         <p className="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
-          “{content}"
+          &quot;{content}&quot;
         </p>
         <div className="flex items-center">
           <div className="w-full">
