@@ -7,7 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Wood-Works",
+  title: "Wood-Works Medical Solutions Group",
   description: "Medical Solutions Group",
   // other metadata
 };

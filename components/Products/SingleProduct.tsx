@@ -25,7 +25,7 @@ const SingleProduct = ({ product }: { product: Product }) => {
           <div className="mt-10 mb-2 flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
             <Link
               href=""
-              className="inline-block rounded-sm bg-black/5 px-8 py-4 text-base font-semibold text-black duration-300 ease-in-out bg-white/10 hover:bg-black/10"
+              className="inline-block rounded-sm px-8 py-4 duration-300 ease-in-out bg-black/20 text-white hover:bg-white hover:text-black"
             >
               {buttonText}
             </Link>

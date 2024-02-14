@@ -4,7 +4,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   const { name, content, designation } = testimonial;
 
   return (
-    <div className="w-full">
+    <div className="max-w-screen-md">
       <div
         className="wow fadeInUp shadow-two dark:shadow-three dark:hover:shadow-gray-dark rounded-sm bg-white p-8 duration-300 hover:shadow-one dark:bg-dark lg:px-5 xl:px-8"
         data-wow-delay=".1s"

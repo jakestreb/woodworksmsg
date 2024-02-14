@@ -21,9 +21,11 @@ const Testimonials = () => {
           paragraph="Wood-Works leverages industry expertise to provide customized solutions tailored to unlock new revenue streams, increase practice efficiencies, and empower the passion of caring medical professionals."
           center
         />
-        {testimonialData.map((testimonial) => (
-          <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
-        ))}
+        <div className="flex justify-center">
+          {testimonialData.map((testimonial) => (
+            <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
+          ))}
+        </div>
       </div>
     </section>
   );

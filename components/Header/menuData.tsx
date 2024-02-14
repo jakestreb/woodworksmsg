@@ -42,12 +42,6 @@ const menuData: Menu[] = [
         path: "https://trexrehab.com/",
         newTab: false,
       },
-      {
-        id: 58,
-        title: "Error Page",
-        path: "/error",
-        newTab: false,
-      },
     ],
   },
 ];

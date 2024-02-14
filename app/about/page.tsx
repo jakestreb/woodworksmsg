@@ -3,8 +3,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "Wood-Works Medical Solutions Group",
+  description: "Medical Solutions Group",
   // other metadata
 };
 

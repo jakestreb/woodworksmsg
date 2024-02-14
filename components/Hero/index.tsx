@@ -7,7 +7,7 @@ const Hero = () => {
         id="home"
         className="bg-white relative z-10 overflow-hidden"
       >
-        <video autoPlay muted loop id="myVideo" className="absolute left-1/2 -translate-x-2/4 -z-50 mt-16 max-w-none w-[1500px] md:w-[1500px] xl:w-[1800px] 2xl:w-[2000px]">
+        <video autoPlay muted loop id="myVideo" className="absolute left-1/2 -translate-x-2/4 -z-50 mt-16 max-w-none w-[1500px] md:w-[1500px] xl:w-[1800px] 2xl:w-[2200px]">
           <source src="videos/doctors.mp4" type="video/mp4" />
         </video>
         <div className="absolute w-full h-full opacity-60 bg-black -z-10"></div>
