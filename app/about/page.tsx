@@ -1,5 +1,3 @@
-import NiceOneSection from "@/components/About/Nice1";
-import TRexSection from "@/components/About";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
