@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-const TRexSection = () => {
+const About = () => {
   return (
     <section id="about" className="py-16 md:py-20 lg:py-28">
       <div className="container w-full grid">
@@ -27,4 +25,4 @@ const TRexSection = () => {
   );
 };
 
-export default TRexSection;
+export default About;

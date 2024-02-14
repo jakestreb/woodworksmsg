@@ -3,6 +3,7 @@ import Products from "@/components/Products";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
+import Extra from "@/components/Extra";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <About />
       <Products />
+      <Extra />
       <Testimonials />
       <Contact />
     </>

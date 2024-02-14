@@ -1,5 +1,4 @@
 import { Product } from "@/types/product";
-import SectionTitle from "../Common/SectionTitle";
 import SingleProduct from "./SingleProduct";
 
 const productData: Product[] = [

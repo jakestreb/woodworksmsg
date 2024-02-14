@@ -38,7 +38,7 @@ const NewsLatterBox = () => {
         <input
           type="submit"
           value="Send"
-          className="shadow-submit dark:shadow-submit-dark mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white duration-300 hover:bg-primary/90"
+          className="inline-block rounded-sm cursor-pointer w-full py-4 duration-300 ease-in-out bg-black/20 text-white hover:bg-white hover:text-black"
         />
       </div>
     </div>
