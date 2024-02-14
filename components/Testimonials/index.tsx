@@ -5,27 +5,10 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Wood-Works customer",
+    name: "Dr. Shana Jones",
+    designation: "Orthopedic Surgeon & Co-Founder, Georgia Orthopedics Center",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    star: 5,
-  },
-  {
-    id: 2,
-    name: "Devid Weilium",
-    designation: "Wood-Works customer",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    star: 5,
-  },
-  {
-    id: 3,
-    name: "Lethium Frenci",
-    designation: "Wood-Works customer",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    star: 5,
+      "Wood-Works truly understands the challenges physicians face in today's complex healthcare environment. They helped us implement an ancillary services program that was a substantial growth catalyst, enabling us to better care for more patients.",
   },
 ];
 
@@ -34,16 +17,13 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Customers Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Empowering Healthcare Specialists with Financial Growth and Practice Efficiency"
+          paragraph="Wood-Works leverages industry expertise to provide customized solutions tailored to unlock new revenue streams, increase practice efficiencies, and empower the passion of caring medical professionals."
           center
         />
-
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          {testimonialData.map((testimonial) => (
-            <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
-          ))}
-        </div>
+        {testimonialData.map((testimonial) => (
+          <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
+        ))}
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
-import NiceOneSection from "@/components/Devices/Nice1";
-import TRexSection from "@/components/Devices/T-Rex";
+import About from "@/components/About";
+import Products from "@/components/Products";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
@@ -17,8 +17,8 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <NiceOneSection />
-      <TRexSection />
+      <About />
+      <Products />
       <Testimonials />
       <Contact />
     </>
