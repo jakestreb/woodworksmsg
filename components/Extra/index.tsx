@@ -4,7 +4,6 @@ const Extra = () => {
   return (
     <div
       className="relative overflow-hidden max-w-full"
-      style={{minWidth: 450 + 'px'}}
     >
       <div className="absolute left-1/2 -translate-x-2/4 -z-50 w-full">
         <Image
