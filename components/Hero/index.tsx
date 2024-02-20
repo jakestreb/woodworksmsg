@@ -19,10 +19,10 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 font-bold text-xl leading-tight text-white sm:text-4xl sm:leading-tight sm:text-2xl md:text-4xl md:leading-tight">
-                  Empowering medical groups through ancillary services
+                Empowering Recovery Journeys: Medical Device Solutions for Practices & Patients
                 </h1>
                 <p className="mb-12 text-white !leading-relaxed text-body-color text-md sm:text-lg md:text-xl">
-                  As an authorized medical equipment dealer, we specialize in increasing ancillary revenue for medical professionals through exceptional patient care services.
+                Veteran-owned, family-driven, passionate about improving lives through innovative technology.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link

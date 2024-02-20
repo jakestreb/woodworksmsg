@@ -1,4 +1,4 @@
-import About from "@/components/About";
+import Intro from "@/components/Intro";
 import Products from "@/components/Products";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <About />
+      <Intro />
       <Products />
       <Extra />
       <Testimonials />
