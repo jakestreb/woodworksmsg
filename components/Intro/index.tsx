@@ -4,13 +4,13 @@ const Intro = () => {
       <div className="container w-full grid">
           <div className="mb-16">
             <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-              We understand the challenges faced on the road to recovery. Whether you're an
+              We understand the challenges faced on the road to recovery. Whether you&apos;re an
               athlete, someone seeking to regain mobility after an injury, or a healthcare provider,
               having the right tools can make all the difference. We understand that providing
-              exceptional care requires both cutting-edge tools and financial stability. That's why we
+              exceptional care requires both cutting-edge tools and financial stability. That&apos;s why we
               specialize in device solutions that enhance patient outcomes and help practices
               generate ancillary income. We believe in the transformative power of technology, and
-              we're proud to offer products like:
+              we&apos;re proud to offer products like:
             </p>
             <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
               T-Rex
@@ -35,7 +35,7 @@ const Intro = () => {
               </h3>
               <ul className="list-disc text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                 <li>Offer patients state-of-the-art treatment modalities</li>
-                <li>Enhance your practice's reputation as a tech-forward provider</li>
+                <li>Enhance your practice&apos;s reputation as a tech-forward provider</li>
                 <li>Streamline ordering processes with a dedicated billing and authorization team</li>
                 <li>Access the latest advancements in rehabilitation technology</li>
                 <li>Create new pathways to generate ancillary revenue to increase longevity</li>
@@ -54,7 +54,7 @@ const Intro = () => {
           </div>
           <div className="mb-8">
               <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                Together, let's unlock your potential and get you back to living life to the fullest!
+                Together, let&apos;s unlock your potential and get you back to living life to the fullest!
               </h3>
           </div>
       </div>
