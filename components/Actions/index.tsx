@@ -43,7 +43,7 @@ const Actions = () => {
           </div>
         </div>
         <h3 className="mt-10 frank text-center text-2xl font-bold text-white sm:text-2xl lg:text-3xl xl:text-4xl">
-          Together, let's unlock your potential and get you back to living life to the fullest!
+          Together, let&apos;s unlock your potential and get you back to living life to the fullest!
         </h3>
       </div>
     </section>
