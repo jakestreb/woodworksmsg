@@ -131,9 +131,10 @@ const Header = () => {
                                 <Link
                                   href={submenuItem.path}
                                   key={index}
-                                  className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
+                                  className="group/row block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
                                 >
-                                  {submenuItem.title}
+                                  <span>{submenuItem.title}</span>
+                                  <span className="ml-2 align-bottom text-sm material-symbols-outlined sm:invisible group-hover/row:visible">link</span>
                                 </Link>
                               ))}
                             </div>

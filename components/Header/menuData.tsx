@@ -32,14 +32,14 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 51,
-        title: "NICE1",
-        path: "https://www.nicerecovery.com/",
+        title: "T-Rex",
+        path: "https://trexrehab.com/",
         newTab: false,
       },
       {
         id: 52,
-        title: "T-REX",
-        path: "https://trexrehab.com/",
+        title: "NICE1",
+        path: "https://www.nicerecovery.com/",
         newTab: false,
       },
     ],

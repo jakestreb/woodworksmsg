@@ -1,10 +1,13 @@
 import Intro from "@/components/Intro";
 import Products from "@/components/Products";
+import Devices from "@/components/Devices";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Extra from "@/components/Extra";
-import Testimonials from "@/components/Testimonials";
+import Actions from "@/components/Actions";
+import PartnerBenefits from "@/components/PartnerBenefits";
+// import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -19,10 +22,11 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Intro />
-      <Products />
+      <Devices />
+      <PartnerBenefits />
       <Extra />
-      <Testimonials />
-      <Contact />
+      <Products />
+      <Actions />
     </>
   );
 }

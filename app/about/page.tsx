@@ -12,7 +12,7 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Wood-Works Medical Solutions Group"
+        pageName="About"
         description="Our company is founded on the values of discipline, integrity, and a commitment to
         delivering the best possible medical devices and services. With a background in military
         service, entrepreneurship, and medical device sales, we understand these devices'
