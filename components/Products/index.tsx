@@ -8,7 +8,8 @@ const productData: Product[] = [
     designation: "Durable Mobility",
     content:
       "As authorized dealers for Trex Rehab and Nice Recovery, we provide premium mobility aids.",
-    buttonText: "View Mobility"
+    buttonText: "View Mobility",
+    url: "/services",
   },
   {
     id: 2,
@@ -16,7 +17,8 @@ const productData: Product[] = [
     designation: "Rehab Supplies",
     content:
       "We supply the essential equipment and tools you need to help patients heal and regain strength after procedures or injuries.",
-    buttonText: "Shop Supplies"
+    buttonText: "Shop Supplies",
+    url: "/services",
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ const productData: Product[] = [
     designation: "Comfort Aids",
     content:
       "Browse our selection of premium beds, lift chairs, and other relaxation products to enhance healing environments.",
-    buttonText: "View Aids"
+    buttonText: "View Aids",
+    url: "/services",
   },
 ];
 

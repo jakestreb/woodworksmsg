@@ -4,4 +4,5 @@ export type Product = {
   designation: string;
   content: string;
   buttonText: string;
+  url: string;
 };

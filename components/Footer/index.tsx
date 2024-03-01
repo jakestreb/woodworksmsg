@@ -1,6 +1,79 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { FooterItem } from "@/types/footerItem";
+import SingleFooterItem from './SingleFooterItem';
+
+const footerData: FooterItem[] = [
+  {
+    id: 1,
+    title: 'Optimizing Revenue',
+    links: [
+      {
+        name: 'Home',
+        url: '/',
+      },
+      {
+        name: 'About',
+        url: '/about',
+      },
+      {
+        name: 'Services',
+        url: '/services',
+      },
+    ]
+  },
+  {
+    id: 2,
+    title: 'Key Specialties',
+    links: [
+      {
+        name: 'Orthopedists',
+        url: '/services',
+      },
+      {
+        name: 'Pain Physicians',
+        url: '/services',
+      },
+      {
+        name: 'Podiatrists',
+        url: '/services',
+      },
+    ]
+  },
+  {
+    id: 3,
+    title: 'Client Support',
+    links: [
+      {
+        name: 'Contact',
+        url: '/contact',
+      },
+      {
+        name: 'FAQs',
+        url: '/about',
+      },
+    ]
+  },
+  {
+    id: 4,
+    title: 'Company Info',
+    links: [
+      {
+        name: 'About',
+        url: '/about',
+      },
+      {
+        name: 'Leadership',
+        url: '/contact',
+      },
+      {
+        name: 'Services',
+        url: '/contact',
+      },
+    ]
+  },
+];
 
 const Footer = () => {
   return (
@@ -10,144 +83,19 @@ const Footer = () => {
         data-wow-delay=".1s"
       >
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Optimizing Revenue
-                </h2>
-                <ul>
-                  <li>
-                    <a
-                      href="/contact"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/about"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/about"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Services
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Key Specialties
-                </h2>
-                <ul>
-                  <li>
-                    <a
-                      href="/contact"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Orthopedists
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/about"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Pain Physicians
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/about"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Podiatrists
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Client Support
-                </h2>
-                <ul>
-                  <li>
-                    <a
-                      href="/contact"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Contact
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/about"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      FAQs
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Company Info
-                </h2>
-                <ul>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Leadership
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Careers
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <div className="flex flex-wrap justify-center">
+            {footerData.map((footerItem) => (
+              <SingleFooterItem key={footerItem.id} item={footerItem} />
+            ))}
           </div>
 
           <div className="w-full px-4">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
-                <div className="flex items-center">
+              <div className="mb-12 lg:mb-16">
+                <div className="flex justify-center items-center">
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="mr-6 text-body-color duration-300 hover:text-white"
                   >
                     <svg
                       width="9"
@@ -161,7 +109,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="mr-6 text-body-color duration-300 hover:text-white"
                   >
                     <svg
                       width="19"
@@ -175,7 +123,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="mr-6 text-body-color duration-300 hover:text-white"
                   >
                     <svg
                       width="18"
@@ -189,7 +137,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="text-body-color duration-300 hover:text-white"
                   >
                     <svg
                       width="17"
