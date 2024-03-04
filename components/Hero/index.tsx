@@ -18,7 +18,7 @@ const Hero = () => {
                 className="flex flex-col items-center wow fadeInUp mx-auto text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-32 frank font-bold text-6xl text-white sm:text-6xl sm:text-4xl md:text-6xl">
+                <h1 className="mb-32 leading-snug frank font-bold text-4xl text-white sm:text-4xl md:text-6xl">
                 Empowering recovery journeys.
                 </h1>
                 <p className="mb-2 text-white font-semibold text-body-color text-m sm:text-xl sm:text-l md:text-2xl">

@@ -80,19 +80,19 @@ const NewsLatterBox = () => {
           type="text"
           name="name"
           placeholder="Your full name"
-          className="border-stroke text-white shadow-two mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
+          className="border-stroke text-white shadow-two mb-4 w-full rounded-sm border px-6 py-3 text-base text-body-color outline-none focus:border-white border-transparent bg-[#2C303B] focus:shadow-none"
         />
         <input
           type="email"
           name="email"
           placeholder="Contact email"
-          className="border-stroke text-white shadow-two mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
+          className="border-stroke text-white shadow-two mb-4 w-full rounded-sm border px-6 py-3 text-base text-body-color outline-none focus:border-white border-transparent bg-[#2C303B] focus:shadow-none"
         />
         <input
           type="text"
           name="phone"
           placeholder="Best number"
-          className="border-stroke text-white shadow-two mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
+          className="border-stroke text-white shadow-two mb-4 w-full rounded-sm border px-6 py-3 text-base text-body-color outline-none focus:border-white border-transparent bg-[#2C303B] focus:shadow-none"
         />
         <input
           type="submit"

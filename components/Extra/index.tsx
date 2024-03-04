@@ -16,12 +16,12 @@ const Extra = () => {
         />
       </div>
       <div className="absolute w-full h-full opacity-60 bg-black -z-10"></div>
-      <div className="flex justify-end absolute bottom-0 right-0">
+      <div className="w-full absolute bottom-0 right-0">
         <div
-          className="w-full text-right max-w-2xl p-10"
+          className="w-full text-right p-10"
           data-wow-delay=".1s"
         >
-          <h2 className="mb-4 frank font-bold text-xl !leading-tight text-white sm:text-2xl md:text-3xl xl:text-5xl">
+          <h2 className="mb-4 frank font-bold !leading-tight text-white text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
             Supporting financial growth & efficiency.
           </h2>
           <p className="text-base !leading-relaxed text-white md:text-lg xl:text-xl">

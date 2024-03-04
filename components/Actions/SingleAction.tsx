@@ -14,7 +14,7 @@ const GridItem = ({ product }: { product: GridItem }) => {
         <span className="text-xl">
           {content}
         </span>
-        <span className="m-5 material-symbols-outlined text-body-color text-4xl invisible group-hover:visible">arrow_forward</span>
+        <span className="m-5 mr-0 grow text-right md:grow-0 md:text-left material-symbols-outlined text-body-color text-4xl sm:invisible group-hover:visible">arrow_forward</span>
       </a>
     </div>
   );

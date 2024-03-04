@@ -37,7 +37,7 @@ const productData: GridItem[] = [
 const PartnerBenefits = () => {
   return (
     <section className="bg-bg-color-dark relative z-10 py-16 md:py-20 lg:py-28">
-      <h3 className="mb-20 frank text-center text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-4xl xl:text-5xl">
+      <h3 className="mb-20 frank text-center text-4xl font-bold text-black dark:text-white xl:text-5xl">
         Partner Benefits
       </h3>
       <div className="container">

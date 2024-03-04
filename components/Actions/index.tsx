@@ -32,17 +32,15 @@ const Actions = () => {
   return (
     <section className="bg-color-black m-auto relative z-10 py-16 md:py-20 lg:py-28">
       <div className="w-5/6 m-auto">
-        <h3 className="mb-10 frank text-center text-2xl font-bold text-white sm:text-2xl lg:text-3xl xl:text-4xl">
+        <h3 className="mb-10 frank text-center text-3xl font-bold text-white xl:text-4xl">
           Ready to take control of your recovery or elevate your practice?
         </h3>
-        <div className="my-20 container">
-          <div className="grid grid-cols-1 gap-x-8 w-full sm:w-3/4 m-auto">
+          <div className="grid grid-cols-1 gap-x-8 w-full md:w-3/4 lg:w-7/12 my-16 m-auto">
             {productData.map((testimonial) => (
               <SingleAction key={testimonial.id} product={testimonial} />
             ))}
           </div>
-        </div>
-        <h3 className="mt-10 frank text-center text-2xl font-bold text-white sm:text-2xl lg:text-3xl xl:text-4xl">
+        <h3 className="mt-10 frank text-center text-3xl font-bold text-white xl:text-4xl">
           Together, let&apos;s unlock your potential and get you back to living life to the fullest!
         </h3>
       </div>
