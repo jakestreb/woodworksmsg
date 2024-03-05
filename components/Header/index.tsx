@@ -44,21 +44,21 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-40 max-w-full px-4 xl:mr-12">
+            <div className="w-80 p-2 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className="header-logo block w-full py-4"
               >
                 <Image
-                  src="/images/logo/logo.jpg"
+                  src="/images/logo/logo-h.png"
                   alt="logo"
-                  width={120}
+                  width={300}
                   height={120}
                   className="w-full block"
                 />
               </Link>
             </div>
-            <div className="flex w-full items-end justify-between px-4">
+            <div className="flex w-full items-end justify-end px-4">
               <div>
                 <button
                   onClick={navbarToggleHandler}
@@ -90,13 +90,13 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block text-sm lg:flex lg:space-x-16 uppercase font-light tracking-wide">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                            className={`flex py-2 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
                                 : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
@@ -108,11 +108,11 @@ const Header = () => {
                           <>
                             <p
                               onClick={() => handleSubmenu(index)}
-                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
+                              className="flex cursor-pointer items-center justify-between py-2 text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
                             >
                               {menuItem.title}
-                              <span className="pl-3">
-                                <svg width="25" height="24" viewBox="0 0 25 24">
+                              <span className="">
+                                <svg width="25" height="18" viewBox="0 0 25 24">
                                   <path
                                     fillRule="evenodd"
                                     clipRule="evenodd"

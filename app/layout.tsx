@@ -23,7 +23,7 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
+      <body className={`flex flex-col min-h-screen bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
         <Providers>
           <Header />
           {children}

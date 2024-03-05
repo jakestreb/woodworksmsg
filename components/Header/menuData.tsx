@@ -2,12 +2,6 @@ import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [
   {
-    id: 1,
-    title: "Home",
-    path: "/",
-    newTab: false,
-  },
-  {
     id: 2,
     title: "About",
     path: "/about",
@@ -15,14 +9,14 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Services",
-    path: "/services",
+    title: "Contact",
+    path: "/contact",
     newTab: false,
   },
   {
     id: 4,
-    title: "Contact",
-    path: "/contact",
+    title: "Services",
+    path: "/services",
     newTab: false,
   },
   {
@@ -32,14 +26,14 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 51,
-        title: "T-Rex",
-        path: "https://trexrehab.com/",
+        title: "NICE1",
+        path: "https://www.nicerecovery.com/",
         newTab: false,
       },
       {
         id: 52,
-        title: "NICE1",
-        path: "https://www.nicerecovery.com/",
+        title: "T-REX",
+        path: "https://trexrehab.com/",
         newTab: false,
       },
     ],

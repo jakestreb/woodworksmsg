@@ -35,7 +35,7 @@ const Actions = () => {
         <h3 className="mb-10 frank text-center text-3xl font-bold text-white xl:text-4xl">
           Ready to take control of your recovery or elevate your practice?
         </h3>
-          <div className="grid grid-cols-1 gap-x-8 w-full md:w-3/4 lg:w-7/12 my-16 m-auto">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-1 w-full md:w-3/4 lg:w-7/12 my-16 m-auto">
             {productData.map((testimonial) => (
               <SingleAction key={testimonial.id} product={testimonial} />
             ))}

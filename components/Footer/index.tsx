@@ -7,7 +7,7 @@ import SingleFooterItem from './SingleFooterItem';
 const footerData: FooterItem[] = [
   {
     id: 1,
-    title: 'Optimizing Revenue',
+    title: 'Wood-Works',
     links: [
       {
         name: 'Home',
@@ -79,7 +79,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="pb-12 wow fadeInUp dark:bg-gray-dark relative z-10 bg-white pt-16 md:pt-20 lg:pt-24"
+        className="mt-auto pb-12 wow fadeInUp dark:bg-gray-dark relative z-10 bg-white pt-16 md:pt-20 lg:pt-24"
         data-wow-delay=".1s"
       >
         <div className="container">

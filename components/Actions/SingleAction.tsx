@@ -6,15 +6,17 @@ const GridItem = ({ product }: { product: GridItem }) => {
   return (
     <div className="w-full">
       <a
-        className="group flex items-center h-full wow fadeInUp duration-300 lg:px-5 xl:px-8 cursor-pointer"
+        className="group flex items-center h-full wow fadeInUp lg:px-5 xl:px-8 cursor-pointer hover:bg-[#111419]"
         data-wow-delay=".1s"
         href={url}
       >
-        <span className="m-5 material-symbols-outlined text-4xl text-body-color">{icon}</span>
+        <span className="m-5 duration-300 material-symbols-outlined text-4xl text-body-color group-hover:text-white">
+          {icon}
+        </span>
         <span className="text-xl">
           {content}
         </span>
-        <span className="m-5 mr-0 grow text-right md:grow-0 md:text-left material-symbols-outlined text-body-color text-4xl sm:invisible group-hover:visible">arrow_forward</span>
+        <span className="m-5 mr-0 grow text-right duration-300 material-symbols-outlined text-body-color sm:text-[#303440] text-4xl group-hover:text-white">arrow_forward</span>
       </a>
     </div>
   );

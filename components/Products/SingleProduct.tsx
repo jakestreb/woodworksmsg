@@ -18,7 +18,7 @@ const SingleProduct = ({ product }: { product: Product }) => {
             </h3>
           </div>
         </div>
-        <p className="h-full mb-8">
+        <p className="h-full text-body-color mb-8">
           {content}
         </p>
         <div className="border-t border-body-color border-opacity-10 text-base leading-relaxed text-body-color border-white border-opacity-10 text-white">

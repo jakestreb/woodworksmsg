@@ -9,8 +9,10 @@ const GridItem = ({ product }: { product: GridItem }) => {
         className="flex items-center h-full wow fadeInUp duration-300 lg:px-5 xl:px-8"
         data-wow-delay=".1s"
       >
-        <span className="m-5 material-symbols-outlined text-4xl text-body-color">{icon}</span>
-        <span className="text-xl">
+        <span className="m-5 material-symbols-outlined text-4xl text-body-color">
+          {icon}
+        </span>
+        <span className="mr-5 text-xl">
           {content}
         </span>
       </div>
