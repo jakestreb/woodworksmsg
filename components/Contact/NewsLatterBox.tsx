@@ -3,9 +3,9 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-const serviceId = 'service_b0j7cf4';
-const templateId = 'template_ktp4prm';
-const publicKey = 'Oziwhln8IDBS1un0z';
+const serviceId = 'service_f2g29mv';
+const templateId = 'template_ze1yy7b';
+const publicKey = 'LfE4Ej8btUD_pqpdb';
 
 const makeTemporary = (setFn: (val) => void) => {
   return (val: any) => {
@@ -45,20 +45,20 @@ const NewsLatterBox = () => {
       return;
     }
 
-    // emailjs
-    //   .sendForm(serviceId, templateId, form.current, {
-    //     publicKey,
-    //   })
-    //   .then(
-    //     () => {
-    //       console.log('SUCCESS!');
+    emailjs
+      .sendForm(serviceId, templateId, form.current, {
+        publicKey,
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
           setEmailSent(true);
           setAlertText('Message Sent');
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error.text);
-    //     },
-    //   );
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   };
 
   return (
