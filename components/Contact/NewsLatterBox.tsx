@@ -53,7 +53,7 @@ const NewsLatterBox = () => {
     //     () => {
     //       console.log('SUCCESS!');
           setEmailSent(true);
-          setAlertText('Message Sent!');
+          setAlertText('Message Sent');
     //     },
     //     (error) => {
     //       console.log('FAILED...', error.text);
