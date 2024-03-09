@@ -40,7 +40,7 @@ const Header = () => {
   return (
     <>
       <header
-        className="header left-0 top-0 z-40 flex w-full items-center fixed bg-black"
+        className="header h-24 left-0 top-0 z-40 flex w-full items-center fixed bg-black"
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
@@ -53,7 +53,7 @@ const Header = () => {
                   src="/images/logo/logo-h.png"
                   alt="logo"
                   width={300}
-                  height={120}
+                  height={70}
                   className="w-full block"
                 />
               </Link>

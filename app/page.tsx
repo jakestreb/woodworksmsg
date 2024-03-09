@@ -2,7 +2,6 @@ import Intro from "@/components/Intro";
 import Products from "@/components/Products";
 import Devices from "@/components/Devices";
 import ScrollUp from "@/components/Common/ScrollUp";
-import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Extra from "@/components/Extra";
 import Actions from "@/components/Actions";
