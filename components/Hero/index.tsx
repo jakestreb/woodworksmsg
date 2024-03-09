@@ -8,7 +8,7 @@ const Hero = () => {
         className="bg-white relative z-10 overflow-hidden"
       >
         <video playsInline autoPlay muted loop id="myVideo" className="absolute left-1/2 -translate-x-2/4 -z-50 mt-20 max-w-none w-[1200px] md:w-[1400px] xl:w-[1600px] 2xl:w-[1800px] 3xl:w-[2100px]">
-          <source src="videos/physical_therapy_compressed.mp4" type="video/mp4" />
+          <source src="videos/physical_therapy_compressed_more.mp4" type="video/mp4" />
         </video>
         <div className="absolute w-full h-full opacity-60 bg-black -z-10"></div>
         <div className="container pb-[40px] pt-[220px] md:pb-[80px] md:pt-[340px] xl:pb-[140px] xl:pt-[460px] 2xl:pb-[220px] 2xl:pt-[500px]">

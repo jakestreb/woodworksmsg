@@ -15,7 +15,7 @@ const Extra = () => {
           style={{minWidth: 600 + 'px'}}
         />
       </div>
-      <div className="absolute w-full h-full opacity-60 bg-black -z-10"></div>
+      <div className="absolute w-full h-full opacity-40 bg-black -z-10"></div>
       <div className="w-full absolute bottom-0 right-0">
         <div
           className="w-full text-right p-10"
