@@ -7,7 +7,7 @@ const Extra = () => {
     >
       <div className="absolute left-1/2 -translate-x-2/4 min-w-full -z-50 -translate-y-10 md:-translate-y-16 lg:-translate-y-32 xl:-translate-y-36 2xl:-translate-y-48 3xl:-translate-y-56">
         <Image
-          src="images/doctor_balanced.png"
+          src="/images/doctor_balanced.png"
           alt="logo"
           width={2200}
           height={1500}

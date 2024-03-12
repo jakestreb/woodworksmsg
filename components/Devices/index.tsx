@@ -13,7 +13,11 @@ const productData: GridItem[] = [
     id: 2,
     icon: 'gradient',
     header: 'NICE1',
-    content: "This portable cold compression therapy system delivers targeted relief, promoting faster healing and reducing pain—a versatile tool for in-clinic therapy and as a convenient patient take-home solution.",
+    content: (
+      <span>
+      This portable, <span className="font-semibold">ice-free</span> cold compression therapy system delivers targeted relief, promoting faster healing and reducing pain. It&apos;s a versatile tool for in-clinic therapy and makes for a convenient and hassle-free patient take-home solution
+      </span>
+    ),
     url: "https://www.nicerecovery.com/",
   },
 ];

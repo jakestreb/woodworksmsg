@@ -36,6 +36,18 @@ const menuData: Menu[] = [
         path: "https://trexrehab.com/",
         newTab: false,
       },
+      {
+        id: 53,
+        title: "OnLux",
+        path: "https://onluxmd.com/",
+        newTab: false,
+      },
+      {
+        id: 54,
+        title: "NS100",
+        path: "https://neurosolutions100.com/",
+        newTab: false,
+      }
     ],
   },
 ];

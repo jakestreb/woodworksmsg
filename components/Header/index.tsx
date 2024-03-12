@@ -50,7 +50,7 @@ const Header = () => {
                 className="header-logo block w-full py-4"
               >
                 <Image
-                  src="images/logo/logo-h.png"
+                  src="/images/logo/logo-h.png"
                   alt="logo"
                   width={300}
                   height={70}

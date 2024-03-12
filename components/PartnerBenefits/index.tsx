@@ -30,7 +30,7 @@ const productData: GridItem[] = [
   {
     id: 6,
     icon: 'family_home',
-    content: "Count on a family-owned business with a reputation for client care",
+    content: "A family-owned business with a reputation for client care",
   },
 ];
 

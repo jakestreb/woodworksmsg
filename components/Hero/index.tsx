@@ -19,13 +19,16 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-24 leading-snug frank font-bold text-4xl text-white sm:text-4xl md:text-6xl">
-                Empowering recovery journeys.
+                Empowering recovery.
                 </h1>
                 <p className="mb-2 text-white font-semibold text-body-color text-m sm:text-xl sm:text-l md:text-2xl">
-                Medical Device Solutions <span className="italic normal-case font-normal">for Practices & Patients —</span>
+                Medical Device Solutions <span className="italic normal-case font-normal">for Medical Practices & Health Systems —</span>
+                </p>
+                <p className="mb-2 text-white font-light text-body-color text-md sm:text-lg md:text-xl w-3/4">
+                Veteran-owned, family-driven, and committed to innovation.
                 </p>
                 <p className="mb-12 text-white font-light text-body-color text-md sm:text-lg md:text-xl w-3/4">
-                Veteran-owned, family-driven, passionate about improving lives through innovative technology.
+                Your experts in <span className="font-semibold">Workers&apos; Compensation</span> and <span className="font-semibold">VA Medical Insurance</span>.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
