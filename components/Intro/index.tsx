@@ -3,10 +3,13 @@ const Intro = () => {
     <section id="intro" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container w-full grid">
           <div className="mx-5 mb-16">
+            <h3 className="mb-10 text-xl text-black dark:text-white xl:text-2xl">
+              Veteran-owned and committed to innovation
+            </h3>
             <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
               We understand the challenges faced on the road to recovery. Whether you&apos;re an
               athlete, someone seeking to regain mobility after an injury, or a healthcare provider,
-              having the right tools can make all the difference. We understand that providing
+              having the right tools can make all the difference. Providing
               exceptional care requires both cutting-edge tools and financial stability. That&apos;s why we
               specialize in device solutions that enhance patient outcomes and help practices
               generate ancillary income. We believe in the transformative power of technology, and
