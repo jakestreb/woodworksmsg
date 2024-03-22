@@ -25,7 +25,7 @@ const Hero = () => {
                 Enhancing patient outcomes and helping practices generate income.
                 </p>
                 <p className="mb-2 text-white font-semibold text-body-color text-m sm:text-xl sm:text-l md:text-2xl">
-                Innovative Medical Devices <span className="italic normal-case font-normal">for Medical Practices & Health Systems</span>
+                Innovative Medical Devices <span className="italic normal-case font-normal">for Medical Practices & Health Systems —</span>
                 </p>
                 <p className="mb-12 text-white font-light text-body-color text-md sm:text-lg md:text-xl w-3/4">
                 Your experts in <span className="font-semibold">Workers&apos; Compensation</span> and <span className="font-semibold">VA Medical Insurance</span>.
