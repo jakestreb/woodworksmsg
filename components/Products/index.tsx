@@ -34,6 +34,9 @@ const productData: Product[] = [
 const Products = () => {
   return (
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+      <h3 className="mb-20 frank text-center text-2xl text-black dark:text-white xl:text-3xl">
+        Coming Soon
+      </h3>
       <div className="container">
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {productData.map((testimonial) => (

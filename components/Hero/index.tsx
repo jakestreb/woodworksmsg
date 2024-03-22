@@ -28,7 +28,7 @@ const Hero = () => {
                 Innovative Medical Devices <span className="italic normal-case font-normal">for Medical Practices & Health Systems —</span>
                 </p>
                 <p className="mb-12 text-white font-light text-body-color text-md sm:text-lg md:text-xl w-3/4">
-                Your experts in <span className="font-semibold">Workers&apos; Compensation</span> and <span className="font-semibold">VA Medical Insurance</span>.
+                Your experts in Workers&apos; Compensation and VA Medical Insurance.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
