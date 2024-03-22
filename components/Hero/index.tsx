@@ -18,10 +18,10 @@ const Hero = () => {
                 className="flex flex-col items-center wow fadeInUp mx-auto text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-8 leading-snug frank font-bold text-4xl text-white sm:text-4xl md:text-6xl">
+                <h1 className="mb-10 leading-snug frank font-bold text-4xl text-white sm:text-4xl md:text-6xl">
                 Empowering recovery.
                 </h1>
-                <p className="mb-12 text-white font-light text-body-color text-lg sm:text-xl md:text-2xl w-3/4">
+                <p className="mb-10 text-white font-light text-body-color text-lg sm:text-xl md:text-2xl w-3/4">
                 Enhancing patient outcomes and helping practices generate income.
                 </p>
                 <p className="mb-2 text-white font-semibold text-body-color text-m sm:text-xl sm:text-l md:text-2xl">
