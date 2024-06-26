@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SingleDevice from "./SingleDevice";
 import { GridItem } from "@/types/gridItem";
 
@@ -31,6 +32,15 @@ const Devices = () => {
             <SingleDevice key={testimonial.id} product={testimonial} />
           ))}
         </div>
+      </div>
+      <div className="flex justify-center">
+        <Image
+          src="/images/sba-logo.png"
+          alt="logo"
+          width={150}
+          height={200}
+          className="flex-none self-center w-40 h-52 m-16 mb-0"
+        />
       </div>
     </section>
   );

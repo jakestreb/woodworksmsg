@@ -89,6 +89,15 @@ const Footer = () => {
             ))}
           </div>
         </div>
+        <div className="flex justify-center">
+          <Image
+            src="/images/sba-logo.png"
+            alt="logo"
+            width={60}
+            height={80}
+            className="w-32"
+          />
+        </div>
       </footer>
     </>
   );
