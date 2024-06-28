@@ -1,27 +1,4 @@
 import Image from "next/image";
-import SingleDevice from "./SingleDevice";
-import { GridItem } from "@/types/gridItem";
-
-const productData: GridItem[] = [
-  {
-    id: 1,
-    icon: 'body_system',
-    header: "T-Rex",
-    content: "This revolutionary therapy device helps restore range of motion and improve quality of life after major joint injuries and surgeries. With the option to apply a smart device to capture progress data and ensure daily use in the home.",
-    url: "https://trexrehab.com/",
-  },
-  {
-    id: 2,
-    icon: 'gradient',
-    header: 'NICE1',
-    content: (
-      <span>
-      This portable, <span className="font-semibold">ice-free</span> cold compression therapy system delivers targeted relief, promoting faster healing and reducing pain. It&apos;s a versatile tool for in-clinic therapy and makes for a convenient and hassle-free patient take-home solution
-      </span>
-    ),
-    url: "https://www.nicerecovery.com/",
-  },
-];
 
 const Devices = () => {
   return (
