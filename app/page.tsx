@@ -1,6 +1,7 @@
 import Intro from "@/components/Intro";
 import Products from "@/components/Products";
 import Devices from "@/components/Devices";
+import Endorsement from "@/components/Endorsement";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Hero from "@/components/Hero";
 import Extra from "@/components/Extra";
@@ -22,6 +23,7 @@ export default function Home() {
       <Hero />
       <Intro />
       <Devices />
+      <Endorsement />
       <PartnerBenefits />
       <Extra />
       <Products />

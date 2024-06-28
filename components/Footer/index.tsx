@@ -89,13 +89,13 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center p-10">
           <Image
             src="/images/sba-logo.png"
             alt="logo"
             width={60}
             height={80}
-            className="w-32"
+            className="w-28 h-36"
           />
         </div>
       </footer>
