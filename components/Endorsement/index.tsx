@@ -13,7 +13,7 @@ const Devices = () => {
             className="flex-none self-center"
           />
         </div>
-        <div className="flex flex-col min-w-[220px] w-[300px] grow justify-center p-8">
+        <div className="flex flex-col min-w-[200px] max-w-[900px] w-[300px] grow justify-center p-8 text-center md:text-left">
           <div className="font-semibold text-dark text-xl sm:text-2xl lg:text-4xl">
             Veteran-owned and committed to innovation
           </div>
