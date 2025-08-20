@@ -9,8 +9,7 @@ const Intro = () => {
               having the right tools can make all the difference. Providing
               exceptional care requires both cutting-edge tools and financial stability. That&apos;s why we
               specialize in device solutions that enhance patient outcomes and help practices
-              generate ancillary income. We believe in the transformative power of technology, and
-              we&apos;re proud to offer products like:
+              generate ancillary income.
             </p>
           </div>
       </div>

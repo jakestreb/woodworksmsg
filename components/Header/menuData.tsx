@@ -31,12 +31,6 @@ const menuData: Menu[] = [
         newTab: false,
       },
       {
-        id: 52,
-        title: "T-REX",
-        path: "https://trexrehab.com/",
-        newTab: false,
-      },
-      {
         id: 53,
         title: "OnLux",
         path: "https://onluxmd.com/",

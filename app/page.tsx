@@ -22,7 +22,6 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Intro />
-      <Devices />
       <Endorsement />
       <PartnerBenefits />
       <Extra />
